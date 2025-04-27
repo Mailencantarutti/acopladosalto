@@ -59,8 +59,11 @@ header{
 .contenedor article{
     border: white 1px solid;
     border-radius: 15px;
-    padding: 50px;
+    padding: 10px;
     margin: 40px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
 }
 
 
@@ -96,7 +99,7 @@ article img {
 
 
 .caja {
-    justify-content: space-evenly;
+    padding: 0 5px;
 }
 
 .boton {
@@ -122,13 +125,6 @@ body{
     color: white;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
-
-}
 
 .iconos {
     padding: 20px; 
