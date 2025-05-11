@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>salto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body class="fondo">  
@@ -23,26 +24,28 @@
     </header>
 
     <main> 
-        <img class="imagen" src="./assets/img/acopladoprincipal.jpg" alt="imagen de un acoplado">
-        <div class="subtitulo"><h2>Productos Nuevos</h2></div>
+        <img class="imagen animate__animated animate__backInLeft animate__slower" src="./assets/img/acopladoprincipal.jpg" alt="imagen de un acoplado">
+        <div class="subtitulo animate__animated animate__fadeIn animate__slower"><h2>Productos Nuevos</h2></div>
         <section>
             <div class="contenedor">
-                <article>
+                <article class="keyframes">
                     <img src="./assets/img/acoplado.jpg" alt="imagen de un acoplado">
                     <h3>Acoplado</h3>
                     <p>Carrocería diseñada para transporte de carga paletizada, formada por cuatro puertas laterales de doble apertura (para ambos lados), tres parantes por lado y cumbrera superior totalmente desmontable.</p>
                 </article>
                
-                <article>
+                <article class="keyframes">
                     <img src="./assets/img/batea.jpg" alt="imagen de una batea">
                     <h3>Batea</h3>
                     <P>Semirremolque diseñado para el transporte de carga a granel. Posee un cilindro hidraulico de 5 etapas para elevar la carroceria y descargar el producto mediante el porton trasero</P>
                 </article>
                
-                <article>
+                <article class="keyframes">
                     <img src="./assets/img/acopladovolcador.JPG" alt="imagen de un acoplado volcador">
                     <h3>Acoplado Volcador</h3>
-                    <P>Compuesta por frente delantero con escalera, barandas laterales volcables, rebatibles y desmontables soportadas por parantes con riendas, rebatibles y desmontables. La puerta trasera es rebatible y desmontable</P>
+                    <P>Compuesta por frente delantero con escalera, barandas laterales volcables, rebatibles y desmontables soportadas por parantes con riendas, rebatibles y desmontables. La puerta trasera es rebatible y desmontable
+
+                    </P>
                 </article> 
             </div>
         </section>

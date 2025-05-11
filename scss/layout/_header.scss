@@ -1,0 +1,20 @@
+header{
+  @extend %flexrow;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  background-color: $colorfondo;
+  nav {
+    ul {            
+      @extend %flexrow;
+      justify-content: space-between;
+      li {
+        margin-left: 20px;
+        a {
+          color: $colortexto;  
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,72 @@
+.mapas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.iconos {
+    padding: $relleno;
+}
+
+
+.imagen {
+    width: $ancho;
+    height: 80%;
+}
+
+body{
+    
+    padding: 10px;
+    background-color: $colorfondo;
+    color: $colortexto;
+}
+
+
+.subtitulo {
+    
+    @extend %mayuscula;
+    text-align: center;
+    padding: $relleno;
+    
+}
+
+
+.segundosubtitulo {
+    color: $colortexto;
+    @extend %mayuscula;
+    padding: $relleno;
+}
+
+.texto {
+    margin: 20px;
+    padding: $relleno;
+}
+
+a {
+font-size: 20px;
+}
+
+.titulos{
+    font-size: 40px;
+    @extend %mayuscula;
+    font-family: $letraAnton;
+}
+
+body{
+    font-size: 16px;
+}
+
+.segundosubtitulo {
+    color: $colortexto;
+    font-size: 20px;  
+    padding: $relleno;
+    font-family: $letraArial;
+}
+
+.subtitulo {
+    font-size: 20px;
+    @extend %mayuscula;
+    text-align: center;
+    padding: $relleno;
+    font-family: $letraArial;
+}
