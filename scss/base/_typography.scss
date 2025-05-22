@@ -1,8 +1,20 @@
 .mapas {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
+.navbar .nav-link {
+  color: $colortexto;
+  @extend %mayuscula;
+
+}
+
+.navbar-brand {
+   color: $colortexto;
+   @extend %mayuscula;
+   font-size: 20px; 
+}
 
 .iconos {
     padding: $relleno;
@@ -69,4 +81,9 @@ body{
     text-align: center;
     padding: $relleno;
     font-family: $letraArial;
+}
+
+.w-50 {
+    width: 300px;
+    margin: 0 auto;
 }

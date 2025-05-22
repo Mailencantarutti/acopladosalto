@@ -1,11 +1,5 @@
 @media (max-width: 576px){
 
-    nav ul {
-        flex-direction: column !important;
-        width: 100%;
-        align-items: center;
-    }
-
     header {
         display: flex;
         flex-direction: column;
@@ -16,11 +10,13 @@
         flex-direction: column;
         margin-top: 1rem;
         padding-top: 2rem;
+        align-items: center;
         article{
-            width: 90% !important;
-            margin: 0 auto 2rem auto;  
-        }
+            width: 90%; 
+            margin: 20px auto;
+            }           
     }
+    
 
     .footer {
         flex-direction: column;
@@ -28,6 +24,8 @@
 
     .mapas {
         flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
     }
 }
 
