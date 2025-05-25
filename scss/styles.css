@@ -11,21 +11,17 @@ html {
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
 .footer, .contenedor {
   display: flex;
   flex-direction: row;
 }
 
-.contenedor article, .titulos, .segundosubtitulo, .subtitulo, .navbar-brand, .navbar .nav-link {
+.navbar-brand, .navbar .nav-link, .contenedor article, .subtitulo, .segundosubtitulo, h1 {
   Text-transform: uppercase;
+}
+
+.subtitulo, h1 {
+  text-align: center;
 }
 
 @media (max-width: 576px) {
@@ -59,15 +55,6 @@ ul {
   align-items: center;
 }
 
-.navbar .nav-link {
-  color: White;
-}
-
-.navbar-brand {
-  color: White;
-  font-size: 20px;
-}
-
 .iconos {
   padding: 20px;
 }
@@ -83,16 +70,6 @@ body {
   color: White;
 }
 
-.subtitulo {
-  text-align: center;
-  padding: 20px;
-}
-
-.segundosubtitulo {
-  color: White;
-  padding: 20px;
-}
-
 .texto {
   margin: 20px;
   padding: 20px;
@@ -102,9 +79,10 @@ a {
   font-size: 20px;
 }
 
-.titulos {
-  font-size: 40px;
+h1 {
+  font-size: 20px;
   font-family: "Anton", sans-serif;
+  margin: 40px;
 }
 
 body {
@@ -120,32 +98,14 @@ body {
 
 .subtitulo {
   font-size: 20px;
-  text-align: center;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
 }
 
 .w-50 {
   width: 300px;
   margin: 0 auto;
-}
-
-@keyframes miprimeranimacion {
-  0% {
-    opacity: 0;
-    transform: translate(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translate(20px);
-  }
-}
-.keyframes {
-  animation-name: miprimeranimacion;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 3s;
-  animation-delay: 0s;
 }
 
 .boton {
@@ -173,6 +133,15 @@ body {
   width: 100%;
   height: auto;
   max-width: 100%;
+}
+
+.navbar .nav-link {
+  color: White;
+}
+
+.navbar-brand {
+  color: White;
+  font-size: 20px;
 }
 
 .caja {

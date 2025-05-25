@@ -4,64 +4,36 @@
     align-items: center;
 }
 
-.navbar .nav-link {
-  color: $colortexto;
-  @extend %mayuscula;
-
-}
-
-.navbar-brand {
-   color: $colortexto;
-   @extend %mayuscula;
-   font-size: 20px; 
-}
-
 .iconos {
     padding: $relleno;
 }
-
 
 .imagen {
     width: $ancho;
     height: 80%;
 }
 
-body{
-    
+body{    
     padding: 10px;
     background-color: $colorfondo;
     color: $colortexto;
 }
 
-
-.subtitulo {
-    
-    @extend %mayuscula;
-    text-align: center;
-    padding: $relleno;
-    
-}
-
-
-.segundosubtitulo {
-    color: $colortexto;
-    @extend %mayuscula;
-    padding: $relleno;
-}
-
 .texto {
-    margin: 20px;
+    margin: $tamanio;
     padding: $relleno;
 }
 
 a {
-font-size: 20px;
+    font-size: $tamanio;
 }
 
-.titulos{
-    font-size: 40px;
+h1{
+    font-size: $tamanio;
     @extend %mayuscula;
     font-family: $letraAnton;
+    @extend %centrado;
+    margin: 40px;
 }
 
 body{
@@ -70,17 +42,19 @@ body{
 
 .segundosubtitulo {
     color: $colortexto;
-    font-size: 20px;  
+    font-size: $tamanio;  
     padding: $relleno;
     font-family: $letraArial;
+    @extend %mayuscula;
 }
 
 .subtitulo {
-    font-size: 20px;
+    font-size: $tamanio;
     @extend %mayuscula;
-    text-align: center;
+    @extend %centrado;
     padding: $relleno;
     font-family: $letraArial;
+    margin: 30px;
 }
 
 .w-50 {

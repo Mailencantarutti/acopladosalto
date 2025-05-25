@@ -1,4 +1,13 @@
+.navbar .nav-link {
+  color: $colortexto;
+  @extend %mayuscula;
+}
 
+.navbar-brand {
+   color: $colortexto;
+   @extend %mayuscula;
+   font-size: 20px; 
+}
 
 
 
